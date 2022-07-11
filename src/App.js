@@ -12,8 +12,8 @@ function App() {
       <Navigation />
       <BrowserRouter>
         <Routes>
-            <Route path='/about' element={<About/>}/>
-            <Route path="/" element={null} />
+          <Route path='/about' element={<About />} />
+          <Route path="/" element={null} />
         </Routes>
       </BrowserRouter>
     </div>
