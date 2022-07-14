@@ -6,7 +6,6 @@ import Navigation from './components/Nav/Nav';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './components/About/About';
 import Product from './components/product/Product'
-import InformacionProductos from './components/informacionProductos/InformacionProductos'
 function App() {
   return (
     <div className="App">
@@ -18,7 +17,7 @@ function App() {
           <Route path="/hol" element={null} />
         </Routes>
       </BrowserRouter>
-      <InformacionProductos/>
+     
       
 
     </div>

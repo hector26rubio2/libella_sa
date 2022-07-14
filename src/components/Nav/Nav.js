@@ -4,62 +4,35 @@ import { Button } from 'primereact/button';
 const Navigation = () => {
     const items = [
         {
-            label: 'File',
+            label: 'Menu',
             icon: 'pi pi-fw pi-file',
-            items: [
-                {
-                    label: 'New',
-                    icon: 'pi pi-fw pi-plus',
-                    items: [
-                        {
-                            label: 'Bookmark',
-                            icon: 'pi pi-fw pi-bookmark'
-                        },
-                        {
-                            label: 'Video',
-                            icon: 'pi pi-fw pi-video'
-                        },
-
-                    ]
-                },
-                {
-                    label: 'Delete',
-                    icon: 'pi pi-fw pi-trash'
-                },
-                {
-                    separator: true
-                },
-                {
-                    label: 'Export',
-                    icon: 'pi pi-fw pi-external-link'
-                }
-            ]
+          
         },
         {
-            label: 'Edit',
-            icon: 'pi pi-fw pi-pencil',
+            label: 'Catalogo',
+            icon: 'pi pi-fw pi-user-plus',
             items: [
                 {
-                    label: 'Left',
-                    icon: 'pi pi-fw pi-align-left'
+                    label: 'Hombre',
+                    icon: 'pi pi-fw pi-user'
                 },
                 {
-                    label: 'Right',
-                    icon: 'pi pi-fw pi-align-right'
+                    label: 'Mujer',
+                    icon: 'pi pi-fw pi-user'
                 },
                 {
-                    label: 'Center',
-                    icon: 'pi pi-fw pi-align-center'
+                    label: 'Infantil',
+                    icon: 'pi pi-fw pi-user'
                 },
                 {
-                    label: 'Justify',
-                    icon: 'pi pi-fw pi-align-justify'
+                    label: 'Unisex',
+                    icon: 'pi pi-fw pi-users'
                 },
 
             ]
         },
         {
-            label: 'Users',
+            label: 'Mi Cuenta',
             icon: 'pi pi-fw pi-user',
             items: [
                 {
