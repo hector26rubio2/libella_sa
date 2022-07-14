@@ -2,9 +2,9 @@ import './App.css';
 import "primereact/resources/themes/vela-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import Navigation from './component/Nav/Nav';
+import Navigation from './components/Nav/Nav';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import About from './component/About/About';
+import About from './components/About/About';
 
 function App() {
   return (
